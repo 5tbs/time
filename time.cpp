@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 
     std::string sProgram = std::string(argv[1]);
 
-    std::cout << sProgram << std::endl;
+    std::cout << argv[1] << std::endl;
 
     // length of .exe is 4
     // check if .exe is there and append
